@@ -12,31 +12,28 @@ body
     padding: 0 30px
 }
 
-#nav li a.active {
-  background-color: #ddd;
-  color: black;
-
-}
-
-#navbar {
-    width: 100%;
-}
-
 #nav {
+    overflow: auto;
     background-color: black;
-    padding: 0.001em 0;
-    overflow: hidden;
-    top: 0;
-
+    margin: 0;
+    padding: 0;
+    width: auto;
+    text-align: center;
 }
 
 #nav li {
-    float: left;
-    display: inline;
+    display: block;
+
 }
 
+#nav li a.active {
+    background-color: #ddd;
+    color: black;
+  
+  }
+
 #nav a {
-    float: left;
+    float: center;
     display: block;
     color: whitesmoke;
     text-align: center;
@@ -50,8 +47,8 @@ body
     color: black;
 }
 
-h1 {
-    text-align: left;
+#content {
+    text-align: center;
 }
 
 .footer {
@@ -62,9 +59,4 @@ h1 {
     background-color: grey;
     color: white;
     text-align: center;
-}
-
-img:hover {
-    transform: scale(1.1);
-    transition: transform .2s;
 }

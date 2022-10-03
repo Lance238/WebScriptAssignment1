@@ -8,16 +8,35 @@ body
     margin:0px; 
 }
 
-#nav {
-    overflow: auto;
-    margin: 1%;
-    background-color: black;
-    padding: 0.01m 0;
+#wrapper {
+    padding: 0 80px
+}
 
+#navbar{
+    margin: 0;
+}
+
+#nav {
+    background-color: black;
+    padding: 0.001em 0;
+    overflow: hidden;
+    text-align: center;
+    margin: 0;
+}
+
+#nav li a.active {
+    background-color: #ddd;
+    color: black;
+  
+  }
+
+#nav li {
+    float: left;
+    display: inline;
 }
 
 #nav a {
-    float: center;
+    float: left;
     display: block;
     color: whitesmoke;
     text-align: center;
