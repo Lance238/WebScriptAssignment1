@@ -1,28 +1,29 @@
 @charset "UTF-8";
 body 
 { 
-    background-color: black; 
-    background: linear-gradient(217deg, rgba(0, 255, 136, 0.671), rgba(255,0,0,0) 70.71%),
-            linear-gradient(127deg, rgba(0, 183, 255, 0.692), rgba(0,255,0,0) 70.71%),
-            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+    background: linear-gradient(#eff0c0, #ffffff);
     background-attachment: fixed;
-    font-family: Verdana, Geneva, Arial, sans-serif; 
+    font-family: Alkalami; 
     padding:0px; 
     margin:0px; 
 }
 
+#wrapper {
+    padding: 0 80px
+}
+
 #nav {
     margin: 1%;
-    background-color: greenyellow;
+    background-color: black;
     padding: 0.001em 0;
     overflow: hidden;
-
+    top: 0;
 }
 
 #nav a {
     float: left;
     display: block;
-    color: rgba(46, 102, 223, 0.849);
+    color: whitesmoke;
     text-align: center;
     padding: 17px 20px;
     text-decoration: none;
@@ -30,12 +31,12 @@ body
 }
 
 #nav a:hover {
-    background-color: rgb(54, 145, 36);
+    background-color: grey;
     color: black;
 }
 
-#content {
-    text-align: center;
+h1 {
+    text-align: left;
 }
 
 .footer {
@@ -43,7 +44,7 @@ body
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgb(117, 193, 255);
+    background-color: grey;
     color: white;
     text-align: center;
 }
