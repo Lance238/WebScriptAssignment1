@@ -55,8 +55,19 @@ body
     position: fixed;
     left: 0;
     bottom: 0;
+    
     width: 100%;
     background-color: grey;
     color: white;
     text-align: center;
+}
+
+img {
+    height: 50%;
+    width: 50%;
+}
+
+img:hover {
+    transform: scale(1.02);
+    transition: transform .2s;
 }

@@ -1,7 +1,7 @@
 @charset "UTF-8";
 body 
 { 
-    background: linear-gradient(#eff0c0, #ffffff);
+    background: linear-gradient(green, #ffffff);
     background-attachment: fixed;
     font-family: Alkalami; 
     padding:0px; 
@@ -55,7 +55,7 @@ h1 {
 }
 
 .footer {
-    position: fixed;
+    position: absolute;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -64,7 +64,22 @@ h1 {
     text-align: center;
 }
 
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+#natureLance {
+    height: 300px;
+    width: 400px;
+}
+
+#sql {
+    height: 200px;
+    width: 400px;
+}
+
 img:hover {
-    transform: scale(1.1);
+    transform: scale(1.02);
     transition: transform .2s;
 }

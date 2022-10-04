@@ -1,7 +1,7 @@
 @charset "UTF-8";
 body 
 { 
-    background: linear-gradient(#eff0c0, #ffffff);
+    background: linear-gradient(to bottom right,green, #ffffff);
     background-attachment: fixed;
     font-family: Alkalami; 
     padding:0px; 
@@ -62,4 +62,14 @@ body
     background-color: grey;
     color: white;
     text-align: center;
+}
+
+img {
+    height: 50%;
+    width: 60%;
+}
+
+img:hover {
+    transform: scale(1.02);
+    transition: transform .2s;
 }
