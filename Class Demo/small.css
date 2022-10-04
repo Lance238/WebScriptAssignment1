@@ -1,7 +1,7 @@
 @charset "UTF-8";
 body 
 { 
-    background: linear-gradient(#eff0c0, #ffffff);
+    background: linear-gradient(green, #ffffff);
     background-attachment: fixed;
     font-family: Alkalami; 
     padding:0px; 
