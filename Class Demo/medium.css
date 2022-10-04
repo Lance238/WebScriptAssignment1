@@ -69,7 +69,27 @@ img {
     width: 60%;
 }
 
+#natureLance {
+    border-radius: 20%;
+
+}
+
+#scream {
+    height: 160px;
+    width: 160px;
+}
+
 img:hover {
     transform: scale(1.02);
     transition: transform .2s;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto;
 }

@@ -70,8 +70,10 @@ html {
 }
 
 #natureLance {
-    height: 300px;
-    width: 400px;
+    height: 250px;
+    width: 350px;
+    border-radius: 20%;
+
 }
 
 #sql {
@@ -82,4 +84,18 @@ html {
 img:hover {
     transform: scale(1.02);
     transition: transform .2s;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto;
+}
+
+#content{
+    text-align: center;
 }

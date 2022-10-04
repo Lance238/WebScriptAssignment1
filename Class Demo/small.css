@@ -67,7 +67,31 @@ img {
     width: 50%;
 }
 
+#scream {
+    height: 100px;
+    width: 100px;
+}
+
 img:hover {
     transform: scale(1.02);
     transition: transform .2s;
+}
+
+video {
+    width: 45%;
+    height: 60%;
+}
+body {
+    min-height: 140vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#natureLance {
+    border-radius: 20%;
+
+}
+
+footer {
+    margin-top: auto;
 }
