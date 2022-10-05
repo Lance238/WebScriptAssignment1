@@ -63,6 +63,7 @@ body
     text-align: center;
 }
 
+/*code for images to resize according to the window*/
 img {
     height: 50%;
     width: 50%;
@@ -73,6 +74,7 @@ img {
     width: 100px;
 }
 
+/*code for images to enlargen when hovering over it*/
 img:hover {
     transform: scale(1.02);
     transition: transform .2s;
@@ -88,6 +90,7 @@ body {
     flex-direction: column;
 }
 
+/*Rounded off the corners in this picture */
 #natureLance {
     border-radius: 20%;
 

@@ -12,6 +12,7 @@ body
     padding: 0 30px
 }
 
+/*Code for changing the colour of a button when active*/
 #nav li a.active {
   background-color: #ddd;
   color: black;
@@ -22,6 +23,7 @@ body
     width: 100%;
 }
 
+/*Code to design and format the navbar for the regular fluid form*/
 #nav {
     background-color: black;
     padding: 0.001em 0;
@@ -35,6 +37,7 @@ body
     display: inline;
 }
 
+/*design for the navbar buttons*/
 #nav a {
     float: left;
     display: block;
