@@ -1,0 +1,104 @@
+@charset "UTF-8";
+body 
+{ 
+    background: linear-gradient(green, #ffffff);
+    background-attachment: fixed;
+    font-family: Alkalami; 
+    padding:0px; 
+    margin:0px; 
+}
+
+#wrapper {
+    padding: 0 30px
+}
+
+/*Code for changing the colour of a button when active*/
+#nav li a.active {
+  background-color: #ddd;
+  color: black;
+
+}
+
+#navbar {
+    width: 100%;
+}
+
+/*Code to design and format the navbar for the regular fluid form*/
+#nav {
+    background-color: black;
+    padding: 0.001em 0;
+    overflow: hidden;
+    top: 0;
+
+}
+
+#nav li {
+    float: left;
+    display: inline;
+}
+
+/*design for the navbar buttons*/
+#nav a {
+    float: left;
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 17px 20px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#nav a:hover {
+    background-color: grey;
+    color: black;
+}
+
+h1 {
+    text-align: left;
+}
+
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+    color: white;
+    text-align: center;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+#natureLance {
+    height: 250px;
+    width: 350px;
+    border-radius: 20%;
+
+}
+
+#sql {
+    height: 200px;
+    width: 400px;
+}
+
+img:hover {
+    transform: scale(1.02);
+    transition: transform .2s;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto;
+}
+
+#content{
+    text-align: center;
+}
