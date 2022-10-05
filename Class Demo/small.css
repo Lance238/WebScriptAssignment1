@@ -51,11 +51,12 @@ body
     text-align: center;
 }
 
+
+/*code for footer to stay in place when scrolling*/
 .footer {
     position: fixed;
     left: 0;
     bottom: 0;
-    
     width: 100%;
     background-color: grey;
     color: white;
